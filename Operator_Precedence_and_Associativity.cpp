@@ -4,7 +4,7 @@ int main()
 {
     int x = 10, y = 20;
     int z = x+x*y;
-    cout<<x<<"\n";
+    cout<<z<<"\n";
     z=y/x*x;
     cout<<z<<"\n";
     z=y=x;
