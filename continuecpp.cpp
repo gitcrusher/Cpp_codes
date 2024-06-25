@@ -9,7 +9,7 @@ int main ()
     cin>>x;
     cout<<"No. not to be printed: ";
     cin>>n;
-    for(int i=0;i<x+1;i++){
+    for(int i=0;i<=x;i++){
         if(i%n==0){
             continue;
         }
