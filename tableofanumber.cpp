@@ -2,12 +2,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,m;
-    cout<<"Enter table you want";
+    int n,m,x;
+    cout<<"Enter table you want :";
     cin>>n;
-    for(int i=1;i<11;i++){
-        m=n*i;
-        cout<<m<<endl;
+    cout<<"Enter tables till we want :";
+    cin>>m;
+    for(int i=1;i<m+1;i++){
+        x=n*i;
+        cout<<x<<endl;
     }
     return 0;
 }
