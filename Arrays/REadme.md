@@ -9,3 +9,16 @@ Types of array in cpp
             int *arr= new int [n];
     2.Dynamic Sized Arrays
         vextor in c++ STL
+
+#Refference in C++
+example-
+    int main (){
+        int x=10;
+        int &y=x;
+        cout<<y<<" ";  //10
+        x=x+5;
+        cout<<x<<" ";  //15
+        y=y+5;
+        cout<<x<<" ";  //20
+        return 0;
+    }
