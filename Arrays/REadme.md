@@ -35,3 +35,11 @@ summary of refrences
 
 1. the references discussed so ffar cannot reffer to R value eg. literals and results of expressions are r values.
 2. const references and R Value references (&&) are used for this purpose.
+3. for literals if its written as 
+    int &zx=3; //Invalid
+    string &s = "gfg"; //Invalid
+4. for literals you have to write it as
+    const int &x = 3; //vaild
+    int &&x = 3; //valid
+    const string &s + "gfg"; //valid
+    string &&s = "gfg"; //valid
