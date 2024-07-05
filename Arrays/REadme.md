@@ -30,3 +30,7 @@ summary of refrences
 4. cannot be null
 5. safer.
 6. easier to use.
+
+#Const AND R Value Refrences--
+1. the references discussed so ffar cannot reffer to R value eg. literals and results of expressions are r values.
+2. const references and R Value references (&&) are used for this purpose.
