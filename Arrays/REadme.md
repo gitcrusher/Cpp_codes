@@ -1,4 +1,4 @@
-#Arrays
+# Arrays
 Types of array in cpp
     1. Fixed Size Arrays
         a. Allocater in funtion call Stack
@@ -10,8 +10,8 @@ Types of array in cpp
     2. Dynamic Sized Arrays
         vextor in c++ STL
 
-#Reference in C++
- # note - references  are intrnal const pointers
+# Reference in C++
+ ## Note - references  are intrnal const pointers
 example-
     int main (){
         int x=10;
@@ -31,6 +31,7 @@ summary of refrences
 5. safer.
 6. easier to use.
 
-#Const AND R Value Refrences--
+# Const AND R Value Refrences-->
+
 1. the references discussed so ffar cannot reffer to R value eg. literals and results of expressions are r values.
 2. const references and R Value references (&&) are used for this purpose.
