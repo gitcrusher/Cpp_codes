@@ -43,3 +43,7 @@ summary of refrences
     int &&x = 3; //valid
     const string &s + "gfg"; //valid
     string &&s = "gfg"; //valid
+
+# Address And Dereference operator in c++
+1. &: when we use empherand before a variable name (except suring the declaration ), we get address of variable.
+2. *: 
