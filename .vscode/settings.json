@@ -42,6 +42,10 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "scoped_allocator": "cpp",
+        "regex": "cpp"
     }
 }
