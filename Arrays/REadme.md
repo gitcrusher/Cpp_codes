@@ -46,4 +46,4 @@ summary of refrences
 
 # Address And Dereference operator in c++
 1. &: when we use empherand before a variable name (except suring the declaration ), we get address of variable.
-2. *: 
+2. *: When er use star berfore as address (except during declaration), we gert value of the address.
