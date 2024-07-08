@@ -9,3 +9,28 @@ its a variable holding addresses of literal variables.
     6. to return multiple  values.
     7. used for accesing array elements.
     8. to pass argument.
+
+# Difference Between Pointers and Arrays -->
+Codesnippet--->
+
+      #include<iostream>
+      #include<bits/stdc++.h>
+      using namespace std;
+      int main (){
+         int arr[]={10,20,30};
+         int*ptr=arr;
+         cout<<sizeof(arr)<<"\n";
+         cout<<sizeof(ptr)<<"\n";
+         cout<<*(arr+2)<<"\n";
+         cout<<ptr[2]<<"\n";
+         return 0;
+      }
+
+1. SIZE of Arrays Vs Pointers --> size of arrays are dependent upon user input (in above snippet int arr[]={10,20,30}; the output is 12 as integer value i 4 and elements are 3) && in the case of pointers its machine dependent it can be any values as in my code its 4 NOTE--> but it would be same accros your machine.
+
+2. We could assign array to a pointer vice-versa is not applicable -->
+ex. (int*ptr=arr;) ---->> arr=ptr;
+
+3. you can do all the variable arthematic expression on pointer but you cannt do the same onto arrays ---->>
+ ptr++; //valid
+ arr++; //Invalid
