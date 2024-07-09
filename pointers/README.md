@@ -21,8 +21,8 @@ Codesnippet--->
          int*ptr=arr;
          cout<<sizeof(arr)<<"\n";
          cout<<sizeof(ptr)<<"\n";
-         cout<<*(arr+2)<<"\n";
-         cout<<ptr[2]<<"\n";
+         cout<<*(arr+2)<<"\n";   // cout<<arr[2]<<"\n";  according to conventions we should write it like this.
+         cout<<ptr[2]<<"\n";     // cout<<*(ptr+2)<<"\n";
          return 0;
       }
 
@@ -34,3 +34,5 @@ ex. (int*ptr=arr;) ---->> arr=ptr;
 3. you can do all the variable arthematic expression on pointer but you cannt do the same onto arrays ---->>
  ptr++; //valid
  arr++; //Invalid
+
+ 4. Arrya variables are suppposed to give the address of first elements cause arrays are supposed to be a random access (RANDOM ACCESS)
