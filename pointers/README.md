@@ -36,3 +36,20 @@ ex. (int*ptr=arr;) ---->> arr=ptr;
  arr++; //Invalid
 
  4. Arrya variables are suppposed to give the address of first elements cause arrays are supposed to be a random access (RANDOM ACCESS)
+
+ Ex-2 -->
+   #include<iostream>
+   #include<bits/stdc++.h>
+   using namespace std;
+   int main (){
+      int arr[]={10,20,30};
+      int *p1=arr;
+      int (*p2)[3]=&arr;
+       cout<<*p1<<"\n";
+       cout<<**p2<<"\n";
+       return 0;
+   }
+
+NOTE--> 
+1. int *p2=&arr;  would not compile.
+2. int *p2[3];    would means an array of pointer of size 3.
