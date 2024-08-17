@@ -1,22 +1,30 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-typedef struct employee
-{
-    int eId;
-    char favChar;
-    float salary;
-} ep;
+struct Person {
+    string name;
+    int age;
+};
 
-int main(){
-    ep harry ;
-    ep shubham ;
-    ep roahanDas;
-    harry.eId = 1;
-    harry.favChar= 'C';
-    harry.salary = 5000000000;
-    cout<<harry.eId<<endl;
-    cout<<harry.favChar<<endl;
-    cout<<harry.salary<<endl;
+class Employee {
+public:
+    string name;
+    int id;
+};
+
+int main() {
+    Person p;
+    p.name = "John";
+    p.age = 25;
+
+    cout << "Person: " << p.name << ", " << p.age << " years old" << endl;
+
+    Employee e;
+    e.name = "Alice";
+    e.id = 1001;
+
+    cout << "Employee: " << e.name << ", ID: " << e.id ;
+
     return 0;
 }
