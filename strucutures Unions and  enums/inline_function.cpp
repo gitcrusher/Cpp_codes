@@ -1,7 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main (){
-    
+class MyClass {
+public:
+    inline void displayMessage() {
+        cout << "Hello, World!";
+    }
+};
+
+int main() {
+    MyClass obj;
+    obj.displayMessage();
     return 0;
 }
