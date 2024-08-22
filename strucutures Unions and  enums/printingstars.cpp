@@ -8,6 +8,10 @@ class stars{
 };
 
 int main (){
-    
+    char a;
+    cout<<'plz enetr your no ';
+    cin>>a;
+    if (a==){}
+    cout<<a;
     return 0;
 }
