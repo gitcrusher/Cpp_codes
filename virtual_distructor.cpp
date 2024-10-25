@@ -5,7 +5,7 @@ using namespace std;
         A(){
             cout<<"Class A Object created"<<endl;
         }
-        virtual ~A(){
+        virtual~A(){
             cout<<"Class A Object destroyed"<<endl;
         }
     };
@@ -41,7 +41,7 @@ using namespace std;
     };
 
 int main (){
-    A*a1= new D();
+    A*a1= new C();
 
     delete a1;
 return 0;
