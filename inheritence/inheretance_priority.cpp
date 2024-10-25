@@ -5,14 +5,14 @@ using namespace std;
             int a;
     };
 
-    class B: virtual public A{
+    class B: public A{
         public:
-            float a;
+            double a;
     };
     
 int main (){
     B d1;
-    cin>>d1.a>>d1.a;
-    cout<<d1.a<<" "<<d1.a;
+    cin>>d1.A::a>>d1.B::a;
+    cout<<d1.A::a<<" "<<d1.B::a;
 return 0;
 }
